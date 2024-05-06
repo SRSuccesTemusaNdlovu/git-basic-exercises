@@ -1,0 +1,500 @@
+   14  cat milkshakes.md 
+   15  git status
+   16  git add .
+   17  git commit -m "added initial flavours "
+   18  git log
+   19  git switch master 
+   20  git switch -c history
+   21  git log
+   22  history > history.txt
+   23  git log
+   24  git switch milkshake-flavours 
+   25  git log
+   26  ls
+   27  nano README.md 
+   28  git commit -a -m " randon changes "
+   29  git log
+   30  git switch history 
+   31  rm README.md 
+   32  echo "booya" > README.md
+   33  git status
+   34  git log
+   35  git add history.txt 
+   36  git commit -m " added history "
+   37  git status
+   38  git add README.TXT
+   39  git add README.md 
+   40  git commit -m " rewrote commit "
+   41  git switch master 
+   42  ls
+   43  git log
+   44  git switch milkshake-flavours 
+   45  git log
+   46  ls
+   47  git switch master 
+   48  git merge milkshake-flavours 
+   49  git merge history 
+   50  git switch history 
+   51  git merge --quit
+   52  git switch history 
+   53  git switch milkshake-flavours 
+   54  git log
+   55  git switch history 
+   56  git merge checkout history 
+   57  git status
+   58  nano README.md '
+   59  q
+   60  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+   61  ls
+   62  cd a-repo-to-clone/
+   63  git branch 
+   64  git log
+   65  git branch -a
+   66  git branch origin a-branch-with-few-commits
+   67  git checkout a-branch-with-a-few-commits
+   68  git remote -v
+   69  git log
+   70  git switch git-basic-exercises
+   71  git status
+   72  nano README.md 
+   73  git status 
+   74  git add .
+   75  git status 
+   76  git commit -m " conflict fixed "
+   77  git history.txt
+   78  git switch  history
+   79  nano README.md 
+   80  git switch master 
+   81  nano README.md 
+   82  git clone https://github.com/SRSuccesTemusaNdlovu/git-basic-exercises.git
+   83  ls
+   84  cd git-basic-exercises/
+   85  ls
+   86  ls -a
+   87  ls
+   88  git status
+   89  git add .
+   90  git commit " adding to remote repo "
+   91  git status
+   92  git log
+   93  git status
+   94  git commit -m " adding files "
+   95  git status
+   96  ls
+   97  git push origin
+   98  git push origin
+   99  git switch history
+  100  git barnch
+  101  git branch
+  102  git branch history
+  103  git branch
+  104  git switch history 
+  105  ls
+  106  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  107  cd a-repo-to-clone/
+  108  git branch
+  109  git log
+  110  git branch -a
+  111  git checkout a-branch-with-a-few-commits
+  112  git remote -v
+  113  git log
+  114  mkdir this-will-be-another-repo
+  115  cd this-will-be-another-repo/
+  116  git init
+  117  touch README.md
+  118  git switch git-basic-exercises
+  119  //
+  120  cd..
+  121  cd ..
+  122  cd ..
+  123  cd..
+  124  cd ..
+  125  ls
+  126  cd git-basic-exercises/
+  127  ls
+  128  git log
+  129  ls -a
+  130  cd a-repo-to-clone/
+  131  git branch
+  132  remote -v
+  133  git remote -v
+  134  cd..
+  135  cd ..
+  136  git log
+  137  mkdir this-will-be-another-repo
+  138  cd this-will-be-another-repo/
+  139  git init
+  140  ls -a
+  141  touch README.md
+  142  cd ..
+  143  git log
+  144  git status
+  145  ls
+  146  nano .gitignore-me.db
+  147  ls -a
+  148  ls -a
+  149  git status
+  150  nano .gitignore
+  151  cat .gitignore
+  152  git status
+  153  mkdir large-directory-that-should-be-local-only
+  154  cd large-directory-that-should-be-local-only/
+  155  touch README.md 
+  156  nano README.md 
+  157  cd ..
+  158  git status
+  159  git add .gitignore
+  160  git commit -m "added .gitignore"
+  161  git push
+  162  git clone https://github.com/SRSuccesTemusaNdlovu/git-basic-exercises.git
+  163  ls
+  164  mkdir https://github.com/Umuzi-org/a-repo-to-clone.git
+  165  cd ../
+  166  cd multiple\ repos/
+  167  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  168  cd ../
+  169  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  170  ls
+  171  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  172  ls
+  173  cd a-repo-to-clone/
+  174  git branch
+  175  git branch
+  176  git log
+  177  git branch -a
+  178  git switch a-branch-with-a-few-commits
+  179  git remote -v
+  180  git log
+  181  cd ..
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd Git-basic-exercises/
+  186  clear
+  187  ls
+  188  cd git-basic-exercises/
+  189  ls
+  190  cd ../
+  191  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  192  ls
+  193  cd a-repo-to-clone/
+  194  git branch
+  195  git log
+  196  git branch -a
+  197  git switch a-branch-with-a-few-commits
+  198  git remote -v
+  199  clear
+  200  git log
+  201  cd ..
+  202  ls
+  203  cd git-basic-exercises/
+  204  git log
+  205  cd ../
+  206  ls
+  207  mkdir this-will-be-another-repo
+  208  cd this-will-be-another-repo/
+  209  git init
+  210  touch README.md
+  211  cd ../
+  212  ls
+  213  cd git-basic-exercises/
+  214  git log
+  215  git status
+  216  touch ignore-me.db
+  217  rm ignore-me.db
+  218  git switch master
+  219  git branch
+  220  git switch main
+  221  touch ignore-me.db
+  222  ls
+  223  git status
+  224  ls
+  225  cd
+  226  ls
+  227  cd Desktop/
+  228  ls
+  229  cd
+  230  ls
+  231  cd
+  232  ls
+  233  ls
+  234  cd git-basic-exercises/
+  235  ls
+  236  git status
+  237  ls
+  238  rm ignore-me.db
+  239  ls
+  240  touch ignore-me.db
+  241  git status
+  242  nano .gitignore
+  243  nano ignore-me.db
+  244  git status
+  245  git status
+  246  mkdir large-directory-that-should-be-local-only
+  247  cd large-directory-that-should-be-local-only/
+  248  touch readme.md
+  249  ls
+  250  cd ...
+  251  cd ..
+  252  git status
+  253  nano .gitignore
+  254  git status
+  255  git add .gitignore
+  256  git clone https://github.com/Umuzi-org/SabeloRemember-Ndlovu-223-person-python.git
+  257  cd SabeloRemember-Ndlovu-223-person-python/
+  258  git checkout person-branch 
+  259  ls
+  260  nano person.py 
+  261  git switch main
+  262  clear
+  263  git merge person-branch 
+  264  nano person.py 
+  265  git log
+  266  git status
+  267  git merge --abort
+  268  git status
+  269  ls
+  270  git merge person-branch 
+  271  git status
+  272  nano person.py 
+  273  git add .
+  274  git commit -m " new file "
+  275  git status
+  276  ls
+  277  git merge person-branch 
+  278  git push --set-upstream origin
+  279  nano .gitignore
+  280  git status
+  281  git add .gitignore
+  282  git commit -m "added .gitignore "
+  283  git push
+  284  git push origin
+  285  git remote add origin https://github.com/Umuzi-org/a-repo-to-clone.git
+  286  git push origin
+  287  cd ..
+  288  git push -u origin master
+  289  git clone https://github.com/Umuzi-org/SabeloRemember-Ndlovu-219-level-1-programming-katas-python.git
+  290  cd SabeloRemember-Ndlovu-219-level-1-programming-katas-python/
+  291  git branch
+  292  git branch -a
+  293  git switch task/1
+  294  ls
+  295  rm task1.py 
+  296  git status
+  297  git commit -m " task 1 "
+  298  nano task1.py 
+  299  git add task1.py 
+  300  git commit -m " task 1 "
+  301  git push --set-upstream origin task/1
+  302  git switch main
+  303  git merge task/1 
+  304  git status
+  305  git add task1.py 
+  306  git commit -m " atsk 1 "
+  307  git push origin
+  308  git switch task/2
+  309  rm task2.py 
+  310  git status
+  311  git add task2.py 
+  312  git commit -m "task 2 "
+  313  git switch main
+  314  git merge task/2
+  315  git status
+  316  git add task2.py
+  317  git commit task2
+  318  git status
+  319  git commit -m " task 2 "
+  320  git status
+  321  git commit -m " task 2 "
+  322  rm task1.py
+  323  git status
+  324  git commit -m "task 2 "
+  325  git --abort
+  326  git status
+  327  git push origin
+  328  git merge --abort
+  329  git merge task/2
+  330  git add task2.py 
+  331  git commit -m " task 2 "
+  332  git push origin
+  333  git clone https://github.com/Umuzi-org/SabeloRemember-Ndlovu-219-level-1-programming-katas-python.git
+  334  cd SabeloRemember-Ndlovu-219-level-1-programming-katas-python/
+  335  ls
+  336  git branch -a
+  337  git switch task/2
+  338  git status
+  339  git add .
+  340  git commit -m " task 2 "
+  341  git switch main
+  342  git merge task/2 
+  343  git status
+  344  git add .
+  345  git commit -m " task 2 "
+  346  git push origin
+  347  git switch task/2
+  348  git push --set-upstream origin task/2
+  349  git push --set-upstream origin task/2
+  350  git status
+  351  git status
+  352  ls
+  353  git --set-upstream origin task/2
+  354  git clone https://github.com/Umuzi-org/SabeloRemember-Ndlovu-219-level-1-programming-katas-python.git
+  355  cd SabeloRemember-Ndlovu-219-level-1-programming-katas-python/
+  356  ls
+  357  git switch task/2
+  358  ls
+  359  git status
+  360  git add .
+  361  git commit -m " task 2 "
+  362  git switch main 
+  363  git merge task/2 
+  364  ls
+  365  git merge task/2 
+  366  ls -a
+  367  git switch task/2
+  368  git push --set-upstrem origin task/2 
+  369  git push origin --set-upstream task/2 
+  370  git switch task/3
+  371  ls
+  372  git status 
+  373  git add .
+  374  git status
+  375  git commit -m " task 3 "
+  376  git push origin --set-upstream task/3
+  377  git switch main
+  378  git merge task/3
+  379  git status
+  380  git add task/3
+  381  git task/3
+  382  git switch task/3
+  383  git merge --quit
+  384  git status
+  385  git pull origin main
+  386  rm task1.py
+  387  git status
+  388  git restore task1.py
+  389  git clone https://github.com/SRSuccesTemusaNdlovu/git-basic-exercises.git
+  390  ls -a
+  391  git status
+  392  git log
+  393  touch README.md
+  394  git add .
+  395  git commit -m" innitial commit "
+  396  git log
+  397  nano README.md 
+  398  git status
+  399  git commit -m" second commit "
+  400  clear
+  401  git status
+  402  clear
+  403  git add README.md 
+  404  git commit -m"second commit"
+  405  nano README.md 
+  406  git status
+  407  git add 
+  408  git add .
+  409  git commit -m" third commit "
+  410  git log
+  411  git checkout  f96e0b852b5d72285989b78295054f041bfb2030
+  412  cat README.md 
+  413  git checkout main
+  414  clear
+  415  git branch milkshake-flavours
+  416  git switch milkshake-flavours 
+  417  nano milkshake.md
+  418  git status
+  419  git add .
+  420  git status
+  421  git commit -m "added initial flavours "
+  422  git switch -c history
+  423  git log 
+  424  git branch
+  425  history > history.txt
+  426  git log
+  427  clear
+  428  git add .
+  429  git commit -m "added history "
+  430  nano history.txt 
+  431  nano history.txt 
+  432  ls
+  433  git branch
+  434  ls
+  435  ls
+  436  rm history.txt milkshake.md 
+  437  ls
+  438  history > history.txt
+  439  ls
+  440  git clone https://github.com/SRSuccesTemusaNdlovu/git-basic-exercises.git
+  441  git clone https://github.com/SRSuccesTemusaNdlovu/git-basic-exercises.git
+  442  ls -a
+  443  cd git-basic-exercises/
+  444  ls -a
+  445  mkdir git-basic-exercises
+  446  cd git-basic-exercises/
+  447  git init
+  448  ls -a
+  449  clear
+  450  touch README.md
+  451  git status
+  452  git add README.md 
+  453  git commit -m"initial commit"
+  454  nano README.md 
+  455  git add .
+  456  git commit -m"second commit"
+  457  nano README.md 
+  458  git add .
+  459  git commit -m"third commit"
+  460  git log
+  461  clear
+  462  git branch
+  463  git switch -c milkshake-flavours
+  464  nano milkshakes.md
+  465  git add milkshakes.md 
+  466  git commit -m"added initial flavours"
+  467  git switch -c history
+  468  git log
+  469  history > history.txt
+  470  git add history.txt 
+  471  git commit -m"added history"
+  472  git log
+  473  ls
+  474  git switch milkshake-flavours 
+  475  ls
+  476  nano README.md 
+  477  git status
+  478  git add .
+  479  git status
+  480  git commit -m"random readme changes"
+  481  git switch history 
+  482  rm README.md 
+  483  echo "booya" > README.md
+  484  clear
+  485  git status
+  486  git add .
+  487  git commit -m"rewrote readme"
+  488  git switch main
+  489  git switch master 
+  490  ls
+  491  git log
+  492  git switch milkshake-flavours 
+  493  ls
+  494  git log
+  495  git switch history 
+  496  ls
+  497  rm milkshakes.md 
+  498  ls
+  499  git status
+  500  git log
+  501  cd git-basic-exercises/
+  502  ls
+  503  git log
+  504  git branch -c milkshake-flavours
+  505  git branch
+  506  git switch milkshake-flavours 
+  507  nano milkshakes.md
+  508  cat milkshakes.mdy 
+  509  git switch master 
+  510  git switch -c history
+  511  ls
+  512  git branch
+  513  history > history.txt
